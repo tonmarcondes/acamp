@@ -9,7 +9,7 @@ html {
 
 .logo {
     margin-top: -3vh;
-    background-image: url(../img/logo.png);
+    background-image: url(../img/logo.png) !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -21,10 +21,8 @@ html {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: -1;
-    /* Adapte a sombra conforme necessário */
 }
 
-/* Estilos adicionais conforme necessário para o conteúdo dentro da div */
 .regional {
     position: absolute;
     height: 10vw;
