@@ -3,6 +3,7 @@ body, html {
     padding: 0;
     height: 100%;
     background-color: #dfa051 !important;
+    overflow: hidden;
   }
   
   .cor {
@@ -14,8 +15,8 @@ body, html {
   }
   
   .countdown {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    font-family: 'Courier New', Courier, monospace !important;
+    text-align: center !important;
     display: flex;
     height: 50px;
     justify-content: center;
