@@ -14,7 +14,7 @@ body, html {
     height: 90vh !important;
   }
   
-  .countdown {
+  h1 {
     font-family: 'Courier New', Courier, monospace !important;
     text-align: center !important;
     display: flex;
