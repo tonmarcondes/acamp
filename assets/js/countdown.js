@@ -18,12 +18,12 @@ window.addEventListener("load", () => {
     const segundos = Math.floor((diferenca % (1000 * 60)) / 1000);
 
     // Exibe a contagem no elemento com o id "countdown"
-    // document.getElementById("countdown").textContent = `Acamp: - ${dias} dias, ${horas}:${minutos}:${segundos}`;
+    document.getElementById("countdown").textContent = `Acamp: - ${dias} dias, ${horas}:${minutos}:${segundos}`;
   }
 
   // Atualiza a contagem a cada segundo
   setInterval(atualizarContagem, 1000);
 
   // Chama a função inicialmente para evitar um atraso no início
-  atualizarContagem();
+  // atualizarContagem();
 });
