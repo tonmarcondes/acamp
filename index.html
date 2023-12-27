@@ -11,17 +11,27 @@
     <title>.::Acamp 2024</title>
 </head>
 <body>
+    <!-- inserir a musica bomdia.mp3 rodando automaticamente ao entrar no site -->
     <div class="container">
+        <audio controls src="./assets/media/bomdia.mp3" autoplay loop>
+            Seu navegador não suporta o elemento <code>audio</code>.
+        </audio>
         <div class="row">
-            <div class="col-md-12">
-                <h1 id="countdown" class="text-center">Em breve</h1>
+            <div id="countdown" class="col-md-12">
+                <marquee behavior="" direction="">
+                    <h1>Breve inscrições para o Acamp 2024 - Fique atento aos lotes - Informações, fale com seu líder</h1>
+                </marquee>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 cor">
+            <div class="col-md-12 logo">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="regional"></div>
             </div>
         </div>
     </div>
-    <div class="regional"></div>
 </body>
 </html>
