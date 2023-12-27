@@ -9,10 +9,11 @@ html {
 
 .logo {
     margin-top: -3vh;
-    background-image: url("../img/logo.png") !important;
+    background-image: url(../img/logo.png) !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    width: 70vh !important;
     height: 70vh !important;
     z-index: 20;
 }
