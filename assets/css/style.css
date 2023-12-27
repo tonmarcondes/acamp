@@ -1,0 +1,21 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #dfa051;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/logo.png'); /* Substitua pelo caminho da sua imagem */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adapte a sombra conforme necessário */
+  }
+  
+  /* Estilos adicionais conforme necessário para o conteúdo dentro da div */
+  

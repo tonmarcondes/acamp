@@ -1,0 +1,32 @@
+{
+  "name": "acamp",
+  "version": "1.0.0",
+  "description": "Acampamento GFQ 513 2024",
+  "main": "assets/scripts/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonmarcondes/acamp.git"
+  },
+  "keywords": [
+    "Acampamento",
+    "GFQ513",
+    "GFQ",
+    "IEQ",
+    "GMJ",
+    "GMA",
+    "Acamp",
+    "2024"
+  ],
+  "author": "Wellyngton Marcondes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonmarcondes/acamp/issues"
+  },
+  "homepage": "https://github.com/tonmarcondes/acamp#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
