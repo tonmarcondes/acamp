@@ -2,7 +2,7 @@
   "name": "acamp",
   "version": "1.0.0",
   "description": "Acampamento GFQ 513 2024",
-  "main": "assets/scripts/index.js",
+  "main": "assets/js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
