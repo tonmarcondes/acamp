@@ -5,9 +5,9 @@ html {
     padding-top: 1vh;
     background-color: #dfa051 !important;
     overflow: hidden;
+    background-image: url("../img/fundo.png");
 }
 .container{
-    background-image: url("../img/fundo.png");
     background-repeat: no-repeat
     ;
 }
@@ -22,9 +22,15 @@ html {
     margin-top: -3vh;
     border-radius: 50%;
     box-shadow: 10px -10px 10px rgba(0, 0, 0, 0.5);
-    height: 70vh !important;
+    /* height: 60vh !important;  */
+    width: 90vh;
 }
-
+@media screen and (max-width: 600px){
+    .logo {
+        width: 90vw;
+        
+    }
+}
 h1{   
     font-family: Arial, Helvetica, sans-serif ;
 }
