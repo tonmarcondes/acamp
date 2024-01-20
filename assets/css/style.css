@@ -6,6 +6,7 @@ html {
     background-color: #dfa051 !important;
     overflow: hidden;
     background-image: url("../img/fundo.png");
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     background-repeat: no-repeat
