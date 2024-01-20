@@ -9,12 +9,16 @@ html {
 .container{
     background-image: url("../img/fundo.png");
 }
+.teste {
+    border: 10px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo {
     margin-top: -3vh;
-    background-image: url("../img/logo.png") !important;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    border-radius: 50%;
     box-shadow: 10px -10px 10px rgba(0, 0, 0, 0.5);
     height: 70vh !important;
 }
