@@ -8,9 +8,11 @@ html {
 }
 .container{
     background-image: url("../img/fundo.png");
+    background-repeat: no-repeat
+    ;
 }
 .teste {
-    border: 10px solid red;
+    /* border: 10px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
