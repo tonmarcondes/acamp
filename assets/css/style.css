@@ -6,13 +6,16 @@ html {
     background-color: #dfa051 !important;
     overflow: hidden;
 }
-
+.container{
+    background-image: url("../img/fundo.png");
+}
 .logo {
     margin-top: -3vh;
     background-image: url("../img/logo.png") !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    box-shadow: 10px -10px 10px rgba(0, 0, 0, 0.5);
     height: 70vh !important;
 }
 
@@ -30,8 +33,9 @@ h1{
     height: 10vw;
     width: 10vw;
     bottom: 0;
+    /* box-shadow: 10px -10px 10px rgba(0, 0, 0, 0.5); */
     margin: 1vh;
-    background-image: url(../img/logonovoRegional.png);
+    background-image: url("../img/gfq.png");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
