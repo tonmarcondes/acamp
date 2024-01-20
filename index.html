@@ -30,7 +30,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div >
-                    <img src="./assets/img/gfq.png" alt="" class="regional">
+                    <img src="./assets/img/gfq.png" alt="Logo regional" class="regional img-fluid mx-auto">
                 </div>
             </div>
         </div>
@@ -39,14 +39,19 @@
         import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.2/dist/web.js'
       
         Typebot.initBubble({
-          typebot: "acamp-288rih2",
-          previewMessage: { message: "Ouvi falar de Acamp 2024? 🧐" },
+          typebot: "0-inicio-xgzd3za",
+          previewMessage: {
+            message: "Bora falar sobre Acamp 😃",
+            autoShowDelay: 10000,
+            avatarUrl:
+              "https://s3.typebot.io/public/workspaces/clrf92v5j000z6nxkv54ggijh/typebots/clrm72g6j0001zrkdyxgzd3za/hostAvatar?v=1705763403125",
+          },
           theme: {
-            button: {
-              customIconSrc:
-                "https://s3.typebot.io/public/workspaces/clqk0worc001tjs0gnkurja4i/typebots/clqr0jjem002ojk0fn288rih2/bubble-icon?v=1703878867902",
+            button: { backgroundColor: "#128C7E", size: "large" },
+            chatWindow: {
+              backgroundColor:
+                "https://s3.fr-par.scw.cloud/typebot/public/typebots/cli88mae30010mh0f0yzjqn48/background?v=1685470080750",
             },
-            chatWindow: { backgroundColor: "#fff" },
           },
         });
       </script>
