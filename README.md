@@ -6,7 +6,3 @@
 
 ![Acamp GFQ](./assets/img/logo.png)
 
-
-SSH_HOST = IP_VPS
-SSH_PASSWORD = Pa$$w0rd1234
-SSH_USER = azure
