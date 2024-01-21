@@ -15,6 +15,10 @@ audio {
     left: 30;
 }
 
+marquee {
+    color: #FF0000;
+}
+
 .container{
     height: 110vh;
     width: 100vw;
